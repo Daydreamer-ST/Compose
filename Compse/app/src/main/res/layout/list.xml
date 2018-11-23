@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#EFEFEF"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="3dp"
+        android:background="#FFFFFF"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/list_color"
+                    android:layout_width="10dp"
+                    android:layout_gravity="center"
+                    android:layout_height="10dp"/>
+
+                <TextView
+                    android:id="@+id/list_name"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="28sp"
+                    android:textStyle="bold"
+                    android:textColor="#37474F"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/list_speed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="26dp"
+                android:layout_marginBottom="5dp"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:textColor="#37474F"/>
+
+            </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
